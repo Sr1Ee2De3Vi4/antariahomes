@@ -1,0 +1,121 @@
+.div style{background-color:black;}
+.class-width {
+    min-width: 200px;
+}
+
+
+
+.modal-scrollbar-measure {
+    overflow: hidden !Important;
+     }
+    .modal-open {
+       overflow: hidden;
+    }
+    .modelscroll::-webkit-scrollbar
+    {
+       width:0px;
+       background: transparent;
+    }
+    .borderr{
+                                border: 2px solid #00a699;
+                                margin:15px
+    }
+    .buttonv
+    {
+       display:none; 
+                            
+    }
+    .widthc
+    {
+     max-width: 577px;                           
+    }
+    
+    .buttonc
+    {
+        display :block;                        
+    }
+    .formw
+    {
+       width:72%
+    }
+    
+    /****whatsapp**/
+    
+    .widthcw
+    {
+     max-width: 480px;                           
+    }
+     .modalfullw
+     {
+        height: 335px;
+     }
+    
+    /****whatsapp**/
+    
+    @media only screen and (max-width: 769px) {
+                                .borderr {
+                          border: 0px ;
+                                }
+                          .buttonv
+                          {
+                               display: block;                       
+    
+                          }
+                            .buttonc{
+                               display:none;                         
+                            } 
+                            .modelfull
+                            {
+                               display: block;
+                               width:100%;
+                               height: 100%;  
+                                                   
+                            }   
+                            .widthc
+                            {
+    
+                                max-width: 100%;
+                                
+    
+                           padding:-1px;
+                                margin: -1px;
+                               
+                               
+                            }
+                            .formw
+                            {
+                           width:95%
+                            }
+                           
+    
+    
+    
+                            /***whatsapp**/
+                            .widthcw
+                            {
+    
+                                max-width: 100%;
+                                
+    
+                           padding:-1px;
+                                margin: -1px;
+                                
+                               
+                               
+                            }
+                            .modalfullw
+                            {
+                               display: block;
+                               width:100%;
+                             height: 100%;
+                            margin-top: 1px;
+                                                   
+                            }   
+                            /***whatsapp**/
+    
+                              }
+    
+    
+    
+    
+                              
